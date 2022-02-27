@@ -145,6 +145,23 @@ export default function Home(): JSX.Element {
                  登录案例对接session cookie登录，session中使用token生成的方式！可以用来做模拟登录练习！
               </p>
               </A>
+              <A
+              href="https://captcha1.ezcrawler.cn/"
+              className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
+              style={{
+                transition,
+                flexBasis: '45%',
+              }}
+            >
+              <h3 className="mb-4 text-2xl" style={{color:"#96e6a1"}}>API-Spider-1 &rarr;</h3>
+              <p className="text-xl leading-[1.875rem]">
+                拖动验证码，DragCaptcha，困难，可以尝试，建议训练模型
+              </p>
+              <br/>
+                <p className="text-xl leading-[1.875rem]" style={{color:"#d57eeb"}}>
+               模型训练加持可能破解成功
+              </p>
+            </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
             <h2>其余案例正在加快编写中....</h2>
             
