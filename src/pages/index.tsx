@@ -116,8 +116,7 @@ export default function Home(): JSX.Element {
               </p>
               <br/>
               <p className="text-xl leading-[1.875rem]" style={{color:"#a6c0fe"}}>
-               有AJAX点击式加载，页码会自动增添！
-                <br>不适合小白爬取！
+               有AJAX点击式加载，页码栏中页码会自动增添。
               </p>
             </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
