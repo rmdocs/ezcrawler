@@ -162,6 +162,23 @@ export default function Home(): JSX.Element {
                模型训练加持可能破解成功
               </p>
             </A>
+            <A
+              href="https://ssr2.ezcrawler.cn/"
+              className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
+              style={{
+                transition,
+                flexBasis: '45%',
+              }}
+            >
+              <h3 className="mb-4 text-2xl" style={{color:"#6db6ff"}}>SSR-02 &rarr;</h3>
+              <p className="text-xl leading-[1.875rem]">
+                 Bitcoin实时行情数据，每分每秒都在刷新，抓取对应时间节点的数据！包含数据走势图！
+              </p>
+              <br/>
+              <p className="text-xl leading-[1.875rem]" style={{color:"#d37eab"}}>
+               实时数据更新/Websocket
+              </p>
+            </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
             <h2>其余案例正在加快编写中....</h2>
             
