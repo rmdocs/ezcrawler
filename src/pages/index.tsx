@@ -66,6 +66,24 @@ export default function Home(): JSX.Element {
                无频率限制反爬虫等措施
               </p>
             </A>
+
+            <A
+              href="https://ws1.ezcrawler.cn"
+              className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
+              style={{
+                transition,
+                flexBasis: '45%',
+              }}
+            >
+              <h3 className="mb-4 text-2xl" style={{color:"rgb(30,59,240)"}}>WebSocket-01 &rarr;</h3>
+              <p className="text-xl leading-[1.875rem]">
+                 WebSocket聊天室爬虫，不要过多爬取，请自行在聊天框中发送1-5条消息进行爬取！否则可能面临改案例停用的风险！
+              </p>
+              <br/>
+              <p className="text-xl leading-[1.875rem]" style={{color:"#d57eeb"}}>
+               Github官方可能会有频率限定
+              </p>
+            </A>
             <A
               href="https://gh.api.coderace.top/"
               className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
