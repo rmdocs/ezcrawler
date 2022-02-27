@@ -102,6 +102,24 @@ export default function Home(): JSX.Element {
                请不要过多爬取否则可能面临改案例停用的风险！
               </p>
             </A>
+            <A
+              href="https://ssr1.ezcrawler.cn"
+              className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
+              style={{
+                transition,
+                flexBasis: '45%',
+              }}
+            >
+              <h3 className="mb-4 text-2xl" style={{color:"rgb(30,59,240)"}}>SSR-01 &rarr;</h3>
+              <p className="text-xl leading-[1.875rem]">
+                 SSR新闻网站，首页共有4大类，最新消息默认加载10页，其余均为5页
+              </p>
+              <br/>
+              <p className="text-xl leading-[1.875rem]" style={{color:"#a6c0fe"}}>
+               有AJAX点击式加载，页码会自动增添！
+                <br>不适合小白爬取！
+              </p>
+            </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
             <h2>其余案例正在加快编写中....</h2>
             
