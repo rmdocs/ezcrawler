@@ -127,9 +127,9 @@ export default function Home(): JSX.Element {
                 flexBasis: '45%',
               }}
             >
-              <h3 className="mb-4 text-2xl" style={{color:"rgb(30,59,240)"}}>SSR-01 &rarr;</h3>
+              <h3 className="mb-4 text-2xl" style={{color:"rgb(30,59,240)"}}>Tool-01 &rarr;</h3>
               <p className="text-xl leading-[1.875rem]">
-                 爬虫代理池
+                 爬虫代理池，借用scrape案例网站的爬虫代理池。可随时使用，比较稳定，对方使用Kubernetes集群部署！
               </p>
               </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
