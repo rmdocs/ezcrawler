@@ -119,6 +119,19 @@ export default function Home(): JSX.Element {
                有AJAX点击式加载，页码栏中页码会自动增添。
               </p>
             </A>
+            <A
+              href="https://proxypool.scrape.center/random"
+              className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
+              style={{
+                transition,
+                flexBasis: '45%',
+              }}
+            >
+              <h3 className="mb-4 text-2xl" style={{color:"rgb(30,59,240)"}}>SSR-01 &rarr;</h3>
+              <p className="text-xl leading-[1.875rem]">
+                 爬虫代理池
+              </p>
+              </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
             <h2>其余案例正在加快编写中....</h2>
             
