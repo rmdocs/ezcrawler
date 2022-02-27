@@ -153,7 +153,7 @@ export default function Home(): JSX.Element {
                 flexBasis: '45%',
               }}
             >
-              <h3 className="mb-4 text-2xl" style={{color:"#96e6a1"}}>API-Spider-1 &rarr;</h3>
+              <h3 className="mb-4 text-2xl" style={{color:"#96e6a1"}}>Captcha-01 &rarr;</h3>
               <p className="text-xl leading-[1.875rem]">
                 拖动验证码，DragCaptcha，困难，可以尝试，建议训练模型
               </p>
