@@ -178,6 +178,23 @@ export default function Home(): JSX.Element {
                实时数据更新/Websocket
               </p>
             </A>
+            <A
+              href="https://app1.ezcrawler.cn/PixShaft_3.2.21.apk"
+              className="m-4 p-6 text-left border border-[#eaeaea] rounded-[10px] hover:text-[#0070f3] hover:border-[#0070f3] focus:text-[#0070f3] focus:border-[#0070f3] active:text-[#0070f3] active:border-[#0070f3]"
+              style={{
+                transition,
+                flexBasis: '45%',
+              }}
+            >
+              <h3 className="mb-4 text-2xl" style={{color:"rgb(30,59,240)"}}>APP-01 &rarr;</h3>
+              <p className="text-xl leading-[1.875rem]">
+                 PIXIV直连APP登录需要挂载代理！有分类、动态等界面
+              </p>
+              <br/>
+              <p className="text-xl leading-[1.875rem]" style={{color:"#a6c0fe"}}>
+               有AJAX加载，滑动自动跳出。
+              </p>
+            </A>
     <div className='flex flex-col sm:flex-row flex-wrap items-center justify-center max-w-[800px] mt-12' style={{fontSize:'35px',color:"#64b3f4"}}>
             <h2>其余案例正在加快编写中....</h2>
             
