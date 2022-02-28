@@ -193,7 +193,7 @@ export default function Home(): JSX.Element {
           >
             The website run on{' '}
             <img src="/vercel.svg" alt="Vercel Logo" className="ml-1 h-[1em]" />&nbsp;&nbsp;&nbsp;||
-            &nbsp;Powered By&nbsp; {''}<a href='https://www.coderace.top'> Spide-CodeRace</a>
+            &nbsp;Powered By&nbsp; {''}<a href='https://www.ezcrawler.cn'>EZCrawler Team</a>
           
           </a>
           </footer>
